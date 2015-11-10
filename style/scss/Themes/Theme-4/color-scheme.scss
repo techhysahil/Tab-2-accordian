@@ -1,0 +1,38 @@
+/****************************
+ Project : Tab-2-Accodion
+ Author : Sahil Gupta
+ File : style.scss
+****************************/
+
+.tab_accord_wrapper.flat_theme{
+  ul.tabs{
+    border: 1px solid #e2e2e2;
+    border-right: 0px;
+  }
+  ul.tabs li{
+    color: #000000;
+    border-bottom: 1px solid #e2e2e2;
+    &:last-child{
+      border-bottom: 0px solid #e2e2e2;
+    }
+  }
+  ul.tabs li.active {
+    color: #fff;
+    border-bottom: 1px solid #eb5240;
+    background: #eb5240;
+  }
+  .tab_container{
+    background: #fff;
+    border: 1px solid #e2e2e2;
+  }
+  .tabs_action{
+    border-top: 1px solid #e2e2e2;
+  }
+  @media screen and (max-width: 768px) {
+    .tab_drawer_heading {
+      color: #ffffff;
+      background-color: #ff6873;
+
+    }
+  }
+}

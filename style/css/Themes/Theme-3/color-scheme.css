@@ -1,0 +1,41 @@
+/****************************
+ Project : Tab-2-Accodion
+ Author : Sahil Gupta
+ File : style.scss
+****************************/
+/* line 8, ../../../scss/Themes/Theme-3/color-scheme.scss */
+.tab_accord_wrapper.flat_theme ul.tabs {
+  border: 1px solid #e2e2e2;
+}
+/* line 11, ../../../scss/Themes/Theme-3/color-scheme.scss */
+.tab_accord_wrapper.flat_theme ul.tabs li {
+  color: #000000;
+  border-right: 1px solid #e2e2e2;
+}
+/* line 14, ../../../scss/Themes/Theme-3/color-scheme.scss */
+.tab_accord_wrapper.flat_theme ul.tabs li:last-child {
+  border-right: 0px solid #e2e2e2;
+}
+/* line 18, ../../../scss/Themes/Theme-3/color-scheme.scss */
+.tab_accord_wrapper.flat_theme ul.tabs li.active {
+  background-color: #fff;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  background: #eb5240;
+}
+/* line 24, ../../../scss/Themes/Theme-3/color-scheme.scss */
+.tab_accord_wrapper.flat_theme .tab_container {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+}
+/* line 28, ../../../scss/Themes/Theme-3/color-scheme.scss */
+.tab_accord_wrapper.flat_theme .tabs_action {
+  border-top: 1px solid #e2e2e2;
+}
+@media screen and (max-width: 768px) {
+  /* line 32, ../../../scss/Themes/Theme-3/color-scheme.scss */
+  .tab_accord_wrapper.flat_theme .tab_drawer_heading {
+    color: #ffffff;
+    background-color: #ff6873;
+  }
+}
