@@ -2,12 +2,7 @@
 Tab-2-Accordion is a multifunctional and lightweight accordion plugin for jQuery.This acts as a tabs in Desktop and Accordion on the mobile devices. It comes with different themes, Example below:
 
 ### Usage
-
-```$(".tab_accord_wrapper").tab2accordion();```
-
-### Options
-
-### Events
+    $(".tab_accord_wrapper").tab2accordion();
 
 ### HTML Structure
 
