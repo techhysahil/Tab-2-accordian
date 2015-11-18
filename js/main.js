@@ -1,6 +1,16 @@
-//Tabs-2-Accordion JS
+/*!
+ * Tabs-2-Accordion JS
+ * Original author: http://techhysahil.com/
+ * Further changes, comments: @Techhysahil
+ * Licensed under the MIT license
+ */
 
-(function($){
+
+// the semi-colon before the function invocation is a safety
+// net against concatenated scripts and/or other plugins
+// that are not closed properly.
+
+;(function($){
     $.fn.tab2accordion = function() {
 
 
