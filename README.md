@@ -1,3 +1,6 @@
+<snippet>
+    <content><![CDATA[
+
 #Tab-2-Accordion
 Tab-2-Accordion is a multifunctional and lightweight accordion plugin for jQuery.This acts as a tabs in Desktop and Accordion on the mobile devices. It comes with different themes, Example below:
 
@@ -89,3 +92,8 @@ Tab-2-Accordion is a multifunctional and lightweight accordion plugin for jQuery
 ###About the Author
 
 ###Licence
+
+]]></content>
+  <tabTrigger>readme</tabTrigger>
+
+<snippet>
