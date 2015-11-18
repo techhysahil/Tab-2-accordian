@@ -13,6 +13,7 @@ Tab-2-Accordion is a multifunctional and lightweight accordion plugin for jQuery
 ###Events
 
 ###HTML Structure
+
 ```
 <div class="tab_accord_wrapper flat_theme">
     <!--Tab options-->
