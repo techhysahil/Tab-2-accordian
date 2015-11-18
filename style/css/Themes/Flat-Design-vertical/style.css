@@ -1,0 +1,138 @@
+/* line 2, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 6, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+/* line 10, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper ul.tabs {
+  width: 170px;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  list-style: none;
+  height: auto;
+}
+/* line 18, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper ul.tabs li {
+  float: left;
+  margin: 0px;
+  cursor: pointer;
+  padding-left: 21px;
+  padding-right: 21px;
+  height: 31px;
+  line-height: 31px;
+  font-weight: 500;
+  overflow: hidden;
+  position: relative;
+  width: calc(100% - 41px);
+}
+/* line 31, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper ul.tabs li.active {
+  display: block;
+}
+/* line 34, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper .tab_container {
+  border-top: none;
+  width: calc(100% - 194px);
+  float: left;
+  overflow: auto;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+}
+/* line 42, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper .tabs_action {
+  text-align: right;
+  position: relative;
+  clear: both;
+  padding-top: 17px;
+  padding-right: 20px;
+}
+/* line 48, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper .tabs_action button {
+  border-radius: 0px;
+}
+/* line 50, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper .tabs_action button > .fa {
+  padding-left: 10px;
+}
+/* line 56, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper .tab_content {
+  padding: 10px;
+  display: none;
+  transition: all 0.25s ease-in-out;
+  animation: flipdown 0.8s ease both;
+}
+/* line 61, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper .tab_content:nth-of-type(n) {
+  animation-delay: 0.1s;
+}
+/* line 64, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper .tab_content p {
+  margin: 10px 0px;
+}
+/* line 68, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper p.venue_desc {
+  line-height: 25px;
+  padding: 0 0 10px 0;
+  text-align: justify;
+}
+/* line 73, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper .venue_desc_more {
+  margin-top: -15px;
+  display: block;
+  margin-bottom: 20px;
+}
+/* line 78, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+.tab_accord_wrapper .tab_drawer_heading {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  /* line 83, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+  .tab_accord_wrapper .tabs {
+    display: none;
+  }
+  /* line 86, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+  .tab_accord_wrapper .tab_container {
+    padding: 0px;
+    width: 100%;
+  }
+  /* line 90, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+  .tab_accord_wrapper .tab_drawer_heading {
+    animation: flipdown 0.5s ease both;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin: 0px;
+    display: block;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  /* line 104, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+  .tab_accord_wrapper .tab_drawer_heading:nth-of-type(1) {
+    animation-delay: 0.5s;
+  }
+  /* line 107, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+  .tab_accord_wrapper .tab_drawer_heading:nth-of-type(2) {
+    animation-delay: 0.75s;
+  }
+  /* line 110, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+  .tab_accord_wrapper .tab_drawer_heading:nth-of-type(3) {
+    animation-delay: 1s;
+  }
+  /* line 113, ../../../scss/Themes/Flat-Design-Vertical/style.scss */
+  .tab_accord_wrapper .tab_drawer_heading .fa {
+    float: right;
+    font-size: 18px;
+  }
+}

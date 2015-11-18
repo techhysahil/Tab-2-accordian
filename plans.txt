@@ -1,3 +1,0 @@
-Q&A Accordion using material design --- example : https://support.google.com/plus/answer/2660854?hl=en
-faq accordion old design : Example : http://jqueryui.com/accordion/
-All Accordion : http://zozoui.com/accordion/

@@ -1,0 +1,116 @@
+//Tab Accordian Wrapper Style
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.tab_accord_wrapper{
+    display: block;
+    width: 100%;
+    overflow: auto;
+  ul.tabs {
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      float: left;
+      list-style: none;
+      height: 32px;
+  }
+  ul.tabs li {
+      float: left;
+      margin: 0px;
+      cursor: pointer;
+      padding-left: 21px;
+      padding-right: 21px;
+      height: 31px;
+      line-height: 31px;
+      font-weight: 500;
+      overflow: hidden;
+      position: relative;
+  }
+  ul.tabs li.active {
+      display: block;
+  }
+  .tab_container {
+      border-top: none;
+      width: 100%;
+      clear: both;
+      float: left;
+      overflow: auto;
+      margin-bottom: 10px;
+      padding:0px 10px;
+  }
+  .tabs_action{
+      text-align: right;
+      position: relative;
+      clear: both;
+      padding-top: 17px;
+      padding-right: 20px;
+  button{
+      border-radius: 0px;
+      >.fa{
+           padding-left: 10px;
+       }
+  }
+  }
+
+  .tab_content {
+      padding: 10px;
+      display: none;
+      transition: all 0.25s ease-in-out;
+      animation: flipdown 0.8s ease both;
+      &:nth-of-type(n) {
+           animation-delay: 0.1s;
+       }
+  }
+  p.venue_desc{
+      line-height: 25px;
+      padding: 0 0 10px 0;
+      text-align: justify;
+  }
+  .venue_desc_more{
+      margin-top: -15px;
+      display: block;
+      margin-bottom: 20px;
+  }
+  .tab_drawer_heading {
+      display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+      .tabs {
+          display: none;
+      }
+      .tab_container{
+        padding: 0px;
+        width: 100%;
+      }
+      .tab_drawer_heading {
+          animation: flipdown 0.5s ease both;
+          padding: 10px 10px;
+          font-size: 20px;
+          margin: 0px;
+          display: block;
+          cursor: pointer;
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+
+        &:nth-of-type(1) {
+             animation-delay: 0.5s;
+         }
+        &:nth-of-type(2) {
+             animation-delay: 0.75s;
+         }
+        &:nth-of-type(3) {
+             animation-delay: 1s;
+         }
+        .fa{
+            float: right;
+            font-size: 18px;
+        }
+      }
+  }
+}
