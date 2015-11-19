@@ -44,9 +44,3 @@ Tab-2-Accordion is a multifunctional and lightweight accordion plugin for creati
     </div>
 </div>
 ```
-
-### Version History
-
-### About the Author
-
-### Licence
