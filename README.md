@@ -1,13 +1,5 @@
 # Tab-2-Accordion
-Tab-2-Accordion is a multifunctional and lightweight accordion plugin for creating Responsive Tabs which acts as a tabs in Desktop and Accordion on the mobile devices. It comes with different themes, Example below:
-
-    Theme Name                  Demo Link
-1. Flat Design
-    Skin 1 (Horizontal):
-    Skin 1 (Vertical):
-
-    Skin 2 (Horizontal):
-    Skin 2 (Vertical):
+Tab-2-Accordion is a multifunctional and lightweight accordion plugin for creating Responsive Tabs which acts as a tabs in Desktop and Accordion on the mobile devices. It comes with different themes, You can view demo at http://ui.techhysahil.com/Tab-2-accordian/.
 
 ### Usage
     $(".tab_accord_wrapper").tab2accordion();
