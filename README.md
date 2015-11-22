@@ -2,7 +2,7 @@
 Tab-2-Accordion is a multifunctional and lightweight accordion plugin for creating Responsive Tabs which acts as a tabs in Desktop and Accordion on the mobile devices. It comes with different themes, You can view demo at http://ui.techhysahil.com/Tab-2-accordion/.
 
 ###bower
-    bower install angular
+    bower install Tab-2-accordian
     
 ### Usage
     $(".tab_accord_wrapper").tab2accordion();
